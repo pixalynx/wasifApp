@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  background-color: #F7F8FB;
+  font-family: 'Lato', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1.login-header{
+  color: #818488;
+}
+
+.login-subheader{
+  color: rgb(183, 186, 190);
+}
+
+.searchContainer{
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+  position: relative;
+  top: 35vh;
+}
+
+.Container{
+  margin: 0 auto;
+  text-align: center;
+  width: 20vw;
+  padding: 20px;
+  background-color: white;
+  padding-bottom: 100px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055), 0 1px 2px rgba(0, 0, 0, 0.014);
+  position: relative;
+  top:10vh;
+}
+
+input.login{
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 50px;
+  border: 3px solid #EFF2F4;
+  border-radius: 4px;
+  color: rgb(183, 186, 190);
+}
+
+input[type=text],[type=password]{
+  
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;    
+    box-sizing: border-box;
+}
+
+button{
+  border:0;
+  padding: 0;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.048), 0 1px 2px rgba(0, 0, 0, 0.014);
+}
+
+button.login{
+  width: 80%;
+  border-radius: 8px;
+  background-color: #0069ed;
+  margin: 20px;
+  font-size: 16px;
+  color: #EFF2F4;
+  
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
